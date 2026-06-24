@@ -1,0 +1,241 @@
+body{
+
+    background-color:#f4f7fb;
+    color:#102040;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    margin:0;
+
+}
+
+/* Header */
+
+.header{
+
+    background-color:#3157c9;
+    color:rgb(255, 255, 255);
+    padding:25px;
+
+}
+
+.header h1{
+
+    font-size:36px;
+
+}
+
+.header a{
+
+    color:rgb(255, 255, 255);
+    margin:10px;
+    text-decoration:none;
+    font-size:18px;
+
+}
+
+.header a:hover{
+
+    color:yellow;
+
+}
+
+/* Sections */
+
+.section{
+
+    background-color:rgb(255, 255, 255);
+    padding:30px;
+    margin:20px;
+    border:1px solid #154aad;
+    border-radius:12px;
+
+}
+
+/* Hero */
+
+.hero img{
+
+    width:150px;
+    border-radius:50%;
+    border:4px solid #3157c9;
+
+}
+
+.hero h2{
+
+    font-size:30px;
+    color:#102040;
+
+}
+
+.hero h3{
+
+    color:#3157c9;
+
+}
+
+/* About */
+
+#about h2{
+
+    color:#3157c9;
+    font-size:28px;
+
+}
+
+#about p{
+
+    font-size:18px;
+    padding:10px;
+
+}
+
+mark{
+
+    background-color:yellow;
+
+}
+
+q{
+
+    color:#3157c9;
+    font-size:18px;
+
+}
+
+/* Skills */
+
+#skills h2{
+    color:#3157c9;
+    font-size:28px;
+}
+
+#skills ul{
+    list-style-type: square;
+    text-align: left;
+    list-style-position: inside;
+    width: 200px;
+    margin-left: 30px;
+}
+}
+
+#skills li{
+    margin:10px 0;
+    font-size:20px;
+}
+
+/* Projects */
+
+#projects h2{
+
+    color:#3157c9;
+    font-size:28px;
+
+}
+
+#projects h3{
+
+    color:#102040;
+
+}
+
+#projects p{
+
+    font-size:18px;
+
+}
+
+#projects a{
+
+    color:white;
+    background-color:#3157c9;
+    padding:8px 15px;
+    border-radius:8px;
+    text-decoration:none;
+
+}
+
+#projects a:hover{
+
+    background-color:#102040;
+
+}
+
+/* Contact */
+
+#contact h2{
+
+    color:#3157c9;
+
+}
+
+form{
+
+    margin-top:20px;
+
+}
+
+label{
+
+    font-weight:bold;
+
+}
+
+input{
+
+    width:60%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #3157c9;
+    border-radius:8px;
+
+}
+
+textarea{
+
+    width:60%;
+    padding:10px;
+    border:1px solid #3157c9;
+    border-radius:8px;
+
+}
+
+button{
+
+    background-color:#3157c9;
+    color:white;
+    padding:12px 25px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+
+}
+
+button:hover{
+
+    background-color:#102040;
+
+}
+
+/* Element Selector */
+
+hr{
+
+    margin:30px;
+}
+
+/* Class Selector */
+
+.section{
+
+    background-color:white;
+
+}
+
+/* ID Selector */
+
+#contact{
+
+    border:2px solid #3157c9;
+
+}
